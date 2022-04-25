@@ -8,10 +8,10 @@ Our considering dataset can be achieved by https://developer.spotify.com/ websit
 <br>
 <br>▪	<b>Preparation of Dataset</b>
 We need a Spotify account and a python code for authorization to achieve Spotify APIs.
-Here we use Spotipy which is a lightweight Python library for the Spotify Web API. With Spotify we get full access to all of the music data provided by the Spotify platform.
+Here we use Spotipy which is a lightweight Python library for the Spotify Web API. With Spotipy we get full access to all of the music data provided by the Spotify platform.
 We created a function in Python to extract the information of songs (also audio features) in a particular playlist. Simultaneously, the extracted information moves to the MySQL database with the help of MySQL connector.
 <br>
 <br>▪	<b>Processing</b>
-We moved our data to the MySQL database, and genre of the music (based on playlist) to each track.
+We moved our data to the MySQL database, and allocate the genre (based on playlist) to each track.
 Then we separated the features that we need for our processing. (Red attributed in the table above). Also, since the track duration attribute is expressed in milliseconds, we converted it to minutes to make much more sense.
 After preparing our data, we were going to find the relation between popularity of a track and its different audio features. Also, we were trying to classify the genre of different tracks based on their features.  
