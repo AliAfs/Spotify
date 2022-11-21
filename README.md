@@ -1,5 +1,4 @@
 # Predicting genre and popularity of songs using Spotify API
-## Ali Afsharian
 <br>▪	<b>Introduction</b>
 Music plays a more important role in our life than just being a source of entertainment. This project analyses some datasets from Spotify and we want to use different audio attributes to predict the genre of the music and find the relations between these attributes to see if the song is going to be popular.
 <br>
